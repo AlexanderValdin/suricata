@@ -1,0 +1,71 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 575px) {
+footer .credit {
+    display: none;
+  }
+}
+
+.navbar {
+  background-color: #E83E8C;
+}
+
+.navbar-brand img {
+  width: 132px;
+}
+button .navbar-toggler {
+  color: #ffffff;
+}
+a .nav-item .nav-link {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 82px;
+  font-weight: bold;
+  color: #707070;
+}
+
+.card-body a {
+  text-decoration: none;
+}
+
+footer .credit {
+
+}
+
+.credit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  background-color: #17A2B8;
+  height: 170px;
+  color: #ffffff;
+}
+
+footer h3 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+footer i {
+  padding: 0 10px;
+  font-size: 53px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .suricata {
+  height: 184px;
+  background-color:  #E83E8C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suricata img {
+  height: 100px;
+}
